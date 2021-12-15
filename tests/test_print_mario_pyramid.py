@@ -13,7 +13,7 @@ def test_exists():
 
 # Checks if accepts negative values
 def test_generate_negative():
-    err = "Deine Funktion darf keine negative Werte akzeptieren"
+    err = "Deine Funktion darf keine negativen Werte akzeptieren"
     assert generate_mario_pyramid(-1) == None, err
 
 # Checks if accepts 0
