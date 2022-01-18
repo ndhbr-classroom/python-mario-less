@@ -113,3 +113,28 @@ python main.py
 ```
 
 und probier aus! :)
+
+## Lösung
+<details>
+  <summary>Nur aufklappen, wenn du wirklich Hilfe brauchst! Probiere es zuerst ohne Lösung.</summary>
+  
+  ### mario.py
+  ```python
+    # No pyramids with height less than 1
+    if (height < 1):
+      return
+
+    for i in range(height):
+      # Loop to add spaces
+      for k in range(height - i, 1, -1):
+          pyramid += ' '
+      # Loop to add hashes
+      for j in range(0, i+1, 1):
+          pyramid += '#'
+      
+      if (i < height - 1):
+          pyramid += '\n'
+  ```
+
+  >Tipp: Achte immer darauf, dass die Zeilen richtig eingerückt sind!
+</details>
