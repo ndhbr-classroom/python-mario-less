@@ -1,4 +1,4 @@
-# Aufgabe 2: Mario
+# Aufgabe 3: Mario
 Gegen Ende von Welt 1-1 in Nintendos Super Mario Brothers muss Mario eine rechts ausgerichtete Pyramide aus Blöcken erklimmen, wie unten abgebildet.
 
 ![Super Mario Pyramid](instruction-assets/pyramid.png)
