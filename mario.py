@@ -1,8 +1,8 @@
 # Generate Mario like Pyramid
 def generate_mario_pyramid(height):
-    pyramid = ''
+	pyramid = ''
 
-    # TODO: Build String Mario Pyramid
+	# TODO: Build String Mario Pyramid
 
-    # Print result
-    return pyramid
+	# Print result
+	return pyramid
